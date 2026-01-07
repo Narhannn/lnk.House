@@ -1,0 +1,80 @@
+.reprod {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 70px 0 30px;
+
+  h1 {
+    font-weight: 500;
+    font-size: 40px;
+    color: #2c2d35;
+  }
+}
+
+.btns {
+  display: flex;
+  gap: 32px;
+
+  button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #d4e8d9;
+    border: none;
+  }
+
+  button:hover {
+    background-color: #376b44;
+    color: #f4f6f5;
+    transition: 0.3s ease-out;
+  }
+}
+
+.cards {
+  background-color: #e1ede6;
+  width: 310px;
+  height: 700px;
+  padding: 20px 20px 30px;
+  margin-bottom: 70px;
+
+
+  h3 {
+    color: #86928b;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0 10px;
+  }
+
+  h2 {
+    color: #2c2d35;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 10px 0 8px;
+  }
+
+  h4 {
+    color: #2c2d35;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 8px 0 30px;
+  }
+
+  h5 {
+    color: #598d66;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 30px 0 20px;
+  }
+
+  button {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 21px 108px;
+    border: 1px solid #598D66;
+    color: #598D66;
+    background: none;
+    margin: 20px 0 30px;
+  }
+}
