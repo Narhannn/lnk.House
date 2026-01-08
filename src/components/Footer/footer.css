@@ -1,0 +1,52 @@
+footer {
+  background-color: #e1ede6;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 29px 0;
+
+  div svg {
+    margin-right: 30px;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+  }
+
+  img {
+    margin-bottom: 35px;
+  }
+
+  a {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c2d35;
+    text-decoration: none;
+  }
+
+  h6 {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 18px;
+    color: #86928b;
+    margin-top: 6px;
+  }
+
+  h3 {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c2d35;
+  }
+
+  p {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: #86928B;
+    margin-bottom: 6px;
+  }
+}

@@ -1,14 +1,11 @@
 import "./App.css";
-import Header from "./components/Header/header";
-import Intro from "./components/Intro/section";
-import Reprod from "./components/Reproduction/reprod";
+import Home from "./pages/Home";
+
 
 function App() {
   return (
     <>
-      <Header />
-      <Intro />
-      <Reprod />
+      <Home/>
     </>
   );
 }
