@@ -34,9 +34,11 @@
 .cards {
   background-color: #e1ede6;
   width: 310px;
-  height: 700px;
   padding: 20px 20px 30px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   
 
   img {
@@ -87,4 +89,6 @@
 
 .card {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
