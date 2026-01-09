@@ -32,3 +32,20 @@
     background: none;
   }
 }
+
+@media (max-width: 1000px) {
+  .section {
+    h1 {
+    font-size: 40px;
+  }
+  img {
+    width: 450px;
+  }
+  span {
+    font-size: 40px;
+  }
+  p {
+    font-size: 16px;
+  }
+  }
+}

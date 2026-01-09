@@ -48,3 +48,22 @@
     margin-top: 20px;
   }
 }
+
+@media (max-width: 1000px) {
+  .info {
+    div {
+      h1 {
+      font-size: 30px;
+    }
+    img {
+      width: 70px;
+      height: 70px;
+    }
+    
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}

@@ -37,6 +37,12 @@
   height: 700px;
   padding: 20px 20px 30px;
   margin-bottom: 70px;
+  
+
+  img {
+    width: 310px;
+    height: 422px;
+  }
 
 
   h3 {
@@ -77,4 +83,8 @@
     background: none;
     margin: 20px 0 30px;
   }
+}
+
+.card {
+  display: flex;
 }
